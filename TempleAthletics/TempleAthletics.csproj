@@ -67,18 +67,54 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminCreateEvent.aspx" />
+    <Content Include="AdminEvent.aspx" />
     <Content Include="AdminHome.aspx" />
+    <Content Include="AdminProfile.aspx" />
+    <Content Include="ImportStudents.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="StudentEvent.aspx" />
     <Content Include="StudentHome.aspx" />
+    <Content Include="StudentProfile.aspx" />
+    <Content Include="StudentTranscript.aspx" />
+    <Content Include="ViewEvent.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminCreateEvent.aspx.cs">
+      <DependentUpon>AdminCreateEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminCreateEvent.aspx.designer.cs">
+      <DependentUpon>AdminCreateEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEvent.aspx.cs">
+      <DependentUpon>AdminEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEvent.aspx.designer.cs">
+      <DependentUpon>AdminEvent.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminHome.aspx.cs">
       <DependentUpon>AdminHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AdminHome.aspx.designer.cs">
       <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminProfile.aspx.cs">
+      <DependentUpon>AdminProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminProfile.aspx.designer.cs">
+      <DependentUpon>AdminProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImportStudents.aspx.cs">
+      <DependentUpon>ImportStudents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportStudents.aspx.designer.cs">
+      <DependentUpon>ImportStudents.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -88,12 +124,40 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentEvent.aspx.cs">
+      <DependentUpon>StudentEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentEvent.aspx.designer.cs">
+      <DependentUpon>StudentEvent.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentHome.aspx.cs">
       <DependentUpon>StudentHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="StudentHome.aspx.designer.cs">
       <DependentUpon>StudentHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentProfile.aspx.cs">
+      <DependentUpon>StudentProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentProfile.aspx.designer.cs">
+      <DependentUpon>StudentProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentTranscript.aspx.cs">
+      <DependentUpon>StudentTranscript.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentTranscript.aspx.designer.cs">
+      <DependentUpon>StudentTranscript.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewEvent.aspx.cs">
+      <DependentUpon>ViewEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewEvent.aspx.designer.cs">
+      <DependentUpon>ViewEvent.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
