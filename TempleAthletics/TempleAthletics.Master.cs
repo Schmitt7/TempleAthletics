@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace TempleAthletics
 {
-	public partial class AdminCreateEvent1 : System.Web.UI.Page
-	{
-		protected void Page_Load(object sender, EventArgs e)
-		{
+    public partial class TempleAthletics : System.Web.UI.MasterPage
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
 
-		}
-	}
+        }
+    }
 }
