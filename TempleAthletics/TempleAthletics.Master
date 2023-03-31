@@ -7,13 +7,53 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="/CSS/styles.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+            <div class=e139_4653>
+                <div  class="Hamburger" id="DropdownNav">
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="StudentHome.aspx">Home</a></li>                            
+                            <li><a href="StudentEvent.aspx">Event</a></li>
+                            <li><a href="StudentProfile.aspx">Profile</a></li>
+                            <li><a href="StudentTranscript.aspx">Transcript</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div  class="ei139_4653_21_5"></div>
+                <div  class="TempleText"></div>
+                <div align="right" class=ei139_4653_21_6>
+                    <div  class=ei139_4653_21_7>
+                        <span class="ei139_4653_21_8">John Doe</span>
+                        <div  class="ei139_4653_21_10">
+                            <div class="dropdown-menu1">
+                                <ul>
+                                    <li><a href="StudentProfile.aspx">Profile</a></li>
+                                    <li><a href="#">Setting</a></li>                            
+                                    <li><a href="#">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>                        
+                        <div class=ei139_4653_21_11>
+                            <div class=ei139_4653_21_12>
+                                <div  class="ei139_4653_21_13"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=ei139_4653_21_18>
+                    <div class=ei139_4653_21_19>                       
+                        <span  class="ei139_4653_21_21">4</span>                  
+                    </div>               
+                </div>
+                <div class=Search>
+                    <div class="SearchIcon"></div>
+            </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-        </div>
     </form>
 </body>
 </html>
