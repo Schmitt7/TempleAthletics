@@ -84,6 +84,16 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="CSS\styles.css" />
+    <Content Include="Images\698648_1.png" />
+    <Content Include="Images\Dropdown icon.png" />
+    <Content Include="Images\Group 1.png" />
+    <Content Include="Images\image 3.png" />
+    <Content Include="Images\image_3.png" />
+    <Content Include="Images\Profile Icon.png" />
+    <Content Include="Images\Temple Logo.png" />
+    <Content Include="Images\temple_logo.png" />
+    <Content Include="Images\Vector.png" />
     <Content Include="ImportStudents.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -218,6 +228,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -7,13 +7,13 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="/CSS/styles.css" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+            <div class=e139_4653><div  class="ei139_4653_21_5"></div><div class=ei139_4653_21_6><div class=ei139_4653_21_7><span  class="ei139_4653_21_8">John Doe</span><div class=ei139_4653_21_9><div  class="ei139_4653_21_10"></div></div><div class=ei139_4653_21_11><div class=ei139_4653_21_12><div  class="ei139_4653_21_13"></div><div  class="ei139_4653_21_14"></div><div  class="ei139_4653_21_15"></div><div  class="ei139_4653_21_16"></div><div  class="ei139_4653_21_17"></div></div></div></div></div><div class=ei139_4653_21_18><div class=ei139_4653_21_19><div  class="ei139_4653_21_20"></div><span  class="ei139_4653_21_21">4</span></div></div><div class=ei139_4653_21_22><div class=ei139_4653_21_23><div  class="ei139_4653_21_24"></div></div></div><div  class="ei139_4653_21_25"></div><div class=ei139_4653_21_26></div><div  class="ei139_4653_21_29"></div></div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-        </div>
     </form>
 </body>
 </html>
