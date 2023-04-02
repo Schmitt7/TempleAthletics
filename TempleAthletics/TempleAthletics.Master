@@ -7,7 +7,13 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="CustomCss/custom.css" type="text/css" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="/CSS/styles.css" type="text/css" />
+    <script src="Scripts/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>

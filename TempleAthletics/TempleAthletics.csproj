@@ -85,8 +85,10 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="CSS\styles.css" />
+    <Content Include="CustomCss\custom.css" />
     <Content Include="Images\698648_1.png" />
     <Content Include="Images\Dropdown icon.png" />
+    <Content Include="Images\File-icon.svg" />
     <Content Include="Images\Group 1.png" />
     <Content Include="Images\Hamburger.png" />
     <Content Include="Images\image 3.png" />
