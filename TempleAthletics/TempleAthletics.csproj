@@ -68,6 +68,7 @@
     <Content Include="AdminEvent.aspx" />
     <Content Include="AdminHome.aspx" />
     <Content Include="AdminProfile.aspx" />
+    <Content Include="CommunityPage.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -86,6 +87,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="CSS\styles.css" />
     <Content Include="CustomCss\custom.css" />
+    <Content Include="ErrorQR.aspx" />
     <Content Include="Images\698648_1.png" />
     <Content Include="Images\Dropdown icon.png" />
     <Content Include="Images\File-icon.svg" />
@@ -141,6 +143,20 @@
     </Compile>
     <Compile Include="AdminProfile.aspx.designer.cs">
       <DependentUpon>AdminProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CommunityPage.aspx.cs">
+      <DependentUpon>CommunityPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommunityPage.aspx.designer.cs">
+      <DependentUpon>CommunityPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorQR.aspx.cs">
+      <DependentUpon>ErrorQR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorQR.aspx.designer.cs">
+      <DependentUpon>ErrorQR.aspx</DependentUpon>
     </Compile>
     <Compile Include="ImportStudents.aspx.cs">
       <DependentUpon>ImportStudents.aspx</DependentUpon>
