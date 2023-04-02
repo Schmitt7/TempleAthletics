@@ -350,8 +350,8 @@ html, body {
 	width: 293px;
 	height: 56px;
 	position: absolute;
-	left: 1080px;
-	top: 900px;
+	left: 43%;
+	top: 887px;
 	border-top-left-radius: 24px;
 	border-top-right-radius: 24px;
 	border-bottom-left-radius: 24px;
@@ -400,8 +400,8 @@ html, body {
 	width: 1067px;
 	height: 592px;
 	position: absolute;
-	left: 700px;
-	top: 250px;
+	left: 417px;
+	top: 238px;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
 	border-bottom-left-radius: 25px;
@@ -411,11 +411,11 @@ html, body {
 
 .e139_4902 {
 	color: rgba(0, 0, 0, 1);
-	width: 245px;
+	width: 231px;
 	height: 39px;
 	position: absolute;
-	left: 1100px;
-	top: 116px;
+	left: 843px;
+	top: 119px;
 	font-family: Inter;
 	text-align: left;
 	font-size: 32px;
@@ -438,8 +438,9 @@ html, body {
 	width: 348px;
 	height: 39px;
 	position: absolute;
-	left: 1100px;
-	top: 700px;
+	left: 34%;
+	top: 510px;
+	margin: 0;
 	font-family: Inter;
 	text-align: left;
 	font-size: 32px;
