@@ -24,3 +24,16 @@ body td:nth-child(3) span {
     font-size: 0.80rem;
     color: #787474;
 }
+
+body #btn-addEvent {
+    background-color: #912733;
+    border: 1px transparent;
+}
+
+body section .controls div:nth-child(1) {
+    width: 15%;
+}
+
+body section .controls div:nth-child(3) {
+    width: 15%;
+}
