@@ -18,7 +18,9 @@
             <h5 class="my-3">Justin Miller</h5>
             <p class="text-muted mb-1"></p>
             <p class="text-muted mb-4">Philadelphia, PA</p>
-            
+            <div class="d-flex justify-content-center mb-2">
+              <button type="button" class="btn btn-primary">Edit Profile</button>
+            </div>
           </div>
         </div>
 

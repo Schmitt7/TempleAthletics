@@ -19,7 +19,8 @@
             <p class="text-muted mb-1">Temple Student Athlete</p>
             <p class="text-muted mb-4">Philadelphia, PA</p>
             <div class="d-flex justify-content-center mb-2">
-              <button type="button" class="btn btn-primary">Scan QR Code</button>
+              <button type="button" class="btn btn-primary">Edit Profile</button>
+              <button type="button" class="btn btn-outline-primary ms-1">Scan QR Code</button>
             </div>
           </div>
         </div>
