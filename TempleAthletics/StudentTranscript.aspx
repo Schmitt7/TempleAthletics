@@ -7,7 +7,7 @@
         Transcript
     </h1>
     <h1 class="name1">
-        Emily Nelson
+        John Smith
     </h1>
 </div>
 <div class="table-responsive table">
