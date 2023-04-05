@@ -8,16 +8,15 @@
         <h2>Event Information</h2>
     </div>
     <div class="view">
-        <div class="mb-3"><label class="form-label" for="name">Name</label><input id="name" class="form-control" type="text" /></div>
-        <div class="mb-3"><label class="form-label" for="phonenumber">Phone Number</label><input id="phonenumber" class="form-control" type="number" /></div>
-        <div class="mb-3"><label class="form-label" for="address">Address</label><input id="Address" class="form-control" type="text" /></div>
-        <div class="mb-3"><label class="form-label" for="eventdate">Event Date</label><input id="eventdate" class="form-control" type="date" /></div>
-        <div class="mb-3"><label class="form-label" for="description">Description</label><textarea id="description" class="form-control"></textarea></div>
-        <div class="mb-3"><label class="form-label" for="hours">Hours</label><input id="hours" class="form-control" type="text" /></div>
+        <div class="mb-3"><label class="form-label" for="name">Name:</label> Reading for the Kids</div>
+        <div class="mb-3"><label class="form-label" for="phonenumber">Phone Number:</label> 202-555-0115</div>
+        <div class="mb-3"><label class="form-label" for="address">Address:</label> 1350 Scenic Hwy S #100</div>
+        <div class="mb-3"><label class="form-label" for="eventdate">Event Date:</label> 11/02/2022</div>
+        <div class="mb-3"><label class="form-label" for="description">Description:</label> Reading for the Kids is a sponsored event that allows students from different colleges to read to different elementary childrens. </div>
+        <div class="mb-3"><label class="form-label" for="hours">Hours:</label> 12:00AM - 3:00PM</div>
         <div class="mb-3">
             <div class="row">
-                <div class="col-md-6"><label class="form-label" for="hire-date">Date</label><input id="hire-date" class="form-control" type="date" /></div>
-                <div class="col-md-6 button"><button class="btn btn-danger d-block w-100" type="submit">Back</button></div>
+                <div class="col-md-6 button"><a href="StudentHome.aspx"><button class="btn btn-danger d-block w-100" type="button">Back</button></a></div>
             </div>
         </div>
     </div>
