@@ -20,16 +20,16 @@
 <body>
     <form id="form1" runat="server">
             <div class=e139_4653>
-                <div  class="Hamburger" id="DropdownNav">
-                    <div class="dropdown-menu">
-                        <ul>
-                            <li><a href="StudentHome.aspx">Home</a></li>                            
-                            <li><a href="StudentEvent.aspx">Event</a></li>
-                            <li><a href="StudentProfile.aspx">Profile</a></li>
-                            <li><a href="StudentTranscript.aspx">Transcript</a></li>
+                <div class="Hamburger">
+                  
+                    <img src="Images/Hamburger.png" />
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="StudentHome.aspx">Home</a></li>                            
+                            <li><a class="dropdown-item" href="StudentEvent.aspx">Event</a></li>
+                            <li><a class="dropdown-item" href="StudentProfile.aspx">Profile</a></li>
+                            <li><a class="dropdown-item" href="StudentTranscript.aspx">Transcript</a></li>
                         </ul>
                     </div>
-                </div>
                 <div  class="ei139_4653_21_5"></div>
                 <div  class="TempleText"></div>
                 <div align="right" class=ei139_4653_21_6>
@@ -57,14 +57,13 @@
                         </div>
                     </div>
                 </div>
-                <div class=ei139_4653_21_18>
+                <!--<div class=ei139_4653_21_18>
                     <div class=ei139_4653_21_19>                       
                         <span  class="ei139_4653_21_21">4</span>                  
                     </div>               
                 </div>
-                <div class=Search>
-                    <div class="SearchIcon"></div>
-            </div>
+              <div class=Search><div class="SearchIcon"></div></div>-->
+                </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
     </form>
