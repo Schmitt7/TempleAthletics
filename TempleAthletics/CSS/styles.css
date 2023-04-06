@@ -12,7 +12,7 @@ html, body {
 
 .Hamburger ul {
 	list-style: none;
-	display: flex;
+	display: none;
 }
 
 .Hamburger {
@@ -20,12 +20,11 @@ html, body {
 	width: 40px;
 	height: 40px;
 	position: absolute;
-	left: 50px;
-	top: 9px;
-	background-size: contain;
-	background-repeat: no-repeat;
+	left: 43px;
+	top: 10px;
 }
 
+/*
 	.Hamburger ul li a:hover {
 		color: var(--color-primary);
 	}
@@ -33,6 +32,7 @@ html, body {
 	.Hamburger:hover {
 		display: block;
 	}
+	*/
 
 .dropdown-menu {
 	display: none;
@@ -42,11 +42,11 @@ html, body {
 	display: block;
 	position: absolute;
 	left: 0;
-	top: 100%;
+	top: 40px;
 	border-color: black;
 	margin: 0px;
 }
-
+/*
 .Hamburger ul li a {
 	font-size: 20px;
 	color: var(--color-white);
@@ -74,7 +74,7 @@ html, body {
 .Hamburger .dropdown-menu ul li:hover {
 	background-color: dimgray;
 }
-
+*/
 .ei139_4653_21_5 {
 	background-image: url('../Images/Temple Logo.png');
 	width: 36px;
@@ -351,7 +351,7 @@ html, body {
 	width: 293px;
 	height: 56px;
 	position: absolute;
-	left: 43%;
+	left: 40%;
 	top: 855px;
 	border-top-left-radius: 24px;
 	border-top-right-radius: 24px;
@@ -401,7 +401,7 @@ html, body {
 	width: 1067px;
 	height: 592px;
 	position: absolute;
-	left: 417px;
+	left: 15%;
 	top: 238px;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
@@ -415,7 +415,7 @@ html, body {
 	width: 274px;
 	height: 39px;
 	position: absolute;
-	left: 843px;
+	left: 45%;
 	top: 119px;
 	font-family: Inter;
 	text-align: left;

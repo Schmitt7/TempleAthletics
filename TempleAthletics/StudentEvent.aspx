@@ -38,7 +38,7 @@
                         <td class="text-center">Sunday, March 18, 2023 <span class="d-block">at 10:00 AM EST</span></td>
                         <td class="align-middle text-center">2h30m</td>
                         <td class="align-middle text-center">Smith Elementary School</td>
-                        <td class="align-middle text-center"><img class="file-icon" src="Images/File-icon.svg" alt="icon" /></td>
+                        <td class="align-middle text-center"><a href="StudentRegisterEvent.aspx"><img class="file-icon" src="Images/File-icon.svg" alt="icon" /></a></td>
                     </tr>
                     <tr class="bg-gray">
                         <th scope="row" class="align-middle">Bike Day</th>
@@ -46,7 +46,7 @@
                         <td class="text-center">Tuesday, March 21, 2023 <span class="d-block">at 9:30 AM EST</span></td>
                         <td class="align-middle text-center">5h00m</td>
                         <td class="align-middle text-center">St. Louis BikeWorks</td>
-                        <td class="align-middle text-center"><img class="file-icon" src="Images/File-icon.svg" alt="icon" /></td>
+                        <td class="align-middle text-center"><a href="StudentRegisterEvent.aspx"><img class="file-icon" src="Images/File-icon.svg" alt="icon" /></a></td>
                     </tr>
                     <tr>
                         <th scope="row" class="align-middle">Halloween Party</th>
@@ -54,7 +54,7 @@
                         <td class="text-center">Friday, March 31, 2023 <span class="d-block">at 1:30 AM EST</span></td>
                         <td class="align-middle text-center">1h00m</td>
                         <td class="align-middle text-center">Temple University</td>
-                        <td class="align-middle text-center"><img class="file-icon" src="Images/File-icon.svg" alt="icon" /></td>
+                        <td class="align-middle text-center"><a href="StudentRegisterEvent.aspx"><img class="file-icon" src="Images/File-icon.svg" alt="icon" /></a></td>
                     </tr>
                     <tr class="bg-gray">
                         <th scope="row" class="align-middle">Habitat for Humanity</th>
@@ -62,7 +62,7 @@
                         <td class="text-center">Sunday, March 18, 2023 <span class="d-block">at 10:00 AM EST</span></td>
                         <td class="align-middle text-center">2h30m</td>
                         <td class="align-middle text-center">Smith Elementary School</td>
-                        <td class="align-middle text-center"><img class="file-icon" src="Images/File-icon.svg" alt="icon" /></td>
+                        <td class="align-middle text-center"><a href="StudentRegisterEvent.aspx"><img class="file-icon" src="Images/File-icon.svg" alt="icon" /></a></td>
                     </tr>
                     <tr>
                         <th scope="row" class="align-middle">Read to Kids</th>
@@ -70,7 +70,7 @@
                         <td class="text-center">Sunday, March 18, 2023 <span class="d-block">at 10:00 AM EST</span></td>
                         <td class="align-middle text-center">2h30m</td>
                         <td class="align-middle text-center">Smith Elementary School</td>
-                        <td class="align-middle text-center"><img class="file-icon" src="Images/File-icon.svg" alt="icon" /></td>
+                        <td class="align-middle text-center"><a href="StudentRegisterEvent.aspx"><img class="file-icon" src="Images/File-icon.svg" alt="icon" /></a></td>
                     </tr>
                 </tbody>
             </table>

@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-<div id="content" style="margin-top: 100px">
+<div id="content" style="margin-top: 100px; width: 80%; text-align: center; margin-left: auto; margin-right: auto;" >
 
     <form>
        
