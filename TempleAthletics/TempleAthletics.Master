@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/CSS/styles.css" type="text/css" />
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -26,7 +27,6 @@
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li><a class="dropdown-item" href="StudentHome.aspx">Home</a></li>                            
                             <li><a class="dropdown-item" href="StudentEvent.aspx">Event</a></li>
-                            <li><a class="dropdown-item" href="StudentProfile.aspx">Profile</a></li>
                             <li><a class="dropdown-item" href="StudentTranscript.aspx">Transcript</a></li>
                         </ul>
                     </div>
@@ -46,7 +46,6 @@
                           </button>
                           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li><a class="dropdown-item" href="StudentProfile.aspx">Profile</a></li>
-                            <li><a class="dropdown-item" href="#">Setting</a></li>
                             <li><a class="dropdown-item" href="#">Logout</a></li>
                           </ul>
                         </div>
