@@ -103,7 +103,7 @@
     font-weight:bold;
 }
 .title{
-    padding-top:3%;
+    padding-top:5%;
     color:white;
     text-align:center;
 }
