@@ -18,7 +18,7 @@
     </h3>
 </div>
 <div class="t1">
-    Upcoming Events
+    Registered Events
 </div>
 <div>
     <table class="table">
