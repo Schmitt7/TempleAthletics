@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminCreateEvent.aspx" />
+    <Content Include="AdminEditProfile.aspx" />
     <Content Include="AdminEvent.aspx" />
     <Content Include="AdminHome.aspx" />
     <Content Include="AdminProfile.aspx" />
@@ -122,6 +123,13 @@
     </Compile>
     <Compile Include="AdminCreateEvent.aspx.designer.cs">
       <DependentUpon>AdminCreateEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEditProfile.aspx.cs">
+      <DependentUpon>AdminEditProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEditProfile.aspx.designer.cs">
+      <DependentUpon>AdminEditProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminEvent.aspx.cs">
       <DependentUpon>AdminEvent.aspx</DependentUpon>
