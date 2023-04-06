@@ -37,3 +37,14 @@ body section .controls div:nth-child(1) {
 body section .controls div:nth-child(3) {
     width: 15%;
 }
+
+body section .my-custom-scrollbar {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+    
+}
+
+body section .table-wrapper-scroll-y {
+    display: block;
+}

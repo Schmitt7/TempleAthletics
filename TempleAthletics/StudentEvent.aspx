@@ -19,7 +19,7 @@
                 </select>
             </div>
         </section>
-        <section>
+        <section class="table-wrapper-scroll-y my-custom-scrollbar">
             <table class="table">
                 <thead>
                     <tr>
@@ -31,7 +31,7 @@
                         <th scope="col" class="text-center"></th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody class="overflow-scroll h-50">
                     <tr>
                         <th scope="row" class="align-middle">Read to Kids</th>
                         <td class="align-middle text-center">3/12</td>

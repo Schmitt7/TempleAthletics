@@ -23,7 +23,7 @@
                 </select>
             </div>
         </section>
-        <section>
+        <section class="table-wrapper-scroll-y my-custom-scrollbar">
             <table class="table">
                 <thead>
                     <tr>
