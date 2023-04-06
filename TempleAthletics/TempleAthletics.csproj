@@ -114,6 +114,7 @@
     <Content Include="StudentTranscript.aspx" />
     <Content Include="ViewEvent.aspx" />
     <Content Include="Web.config" />
+    <Content Include="StudentRegisterEvent.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminCreateEvent.aspx.cs">
@@ -214,6 +215,13 @@
     </Compile>
     <Compile Include="ViewEvent.aspx.designer.cs">
       <DependentUpon>ViewEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentRegisterEvent.aspx.cs">
+      <DependentUpon>StudentRegisterEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentRegisterEvent.aspx.designer.cs">
+      <DependentUpon>StudentRegisterEvent.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
