@@ -1,78 +1,36 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdminEditProfile.aspx.cs" Inherits="TempleAthletics.AdminEditProfile" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" /><link href="Content/bootstrap.min.css" rel="stylesheet" /><link rel="stylesheet" href="CustomCss/custom.css" type="text/css" /><link href="Content/Site.css" rel="stylesheet" /><link href="styles.css" rel="stylesheet" type="text/css" /><link href="style.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="/CSS/styles.css" type="text/css" />
-    <script src="Scripts/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Admin Edit Profile</title>
-</head>
-<body>
-    <div class=e139_4653>
-        <div  class="Hamburger" id="DropdownNav">
-            <div class="dropdown-menu">
-                <ul>
-                    <li><a href="StudentHome.aspx">Home</a></li>                            
-                    <li><a href="StudentEvent.aspx">Event</a></li>
-                    <li><a href="StudentProfile.aspx">Profile</a></li>
-                    <li><a href="StudentTranscript.aspx">Transcript</a></li>
-                </ul>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TempleAthletics.Master" AutoEventWireup="true" CodeBehind="AdminEditProfile.aspx.cs" Inherits="TempleAthletics.AdminEditProfile" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+  <div class="edit-profile wf-section">
+    <div class="edit-profile-container container w-container">
+      <h1 class="edit-profile-heading">Admin Edit Profile</h1>
+      <div class="w-form">
+        <form id="wf-form-Edit-Profile-Form" name="wf-form-Edit-Profile-Form" data-name="Edit Profile Form" method="get">
+          <div class="w-layout-grid edit-profile-grid">
+            <div id="w-node-dede1a6a-4766-ebc9-1161-2c4ba89e7ee4-c51123a0" class="edit-profile-grid-div"><label for="Email" class="ep-field-label">Email</label><input type="email" class="ep-text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="" id="Email" required="">
+              <h3 class="ep-social-heading">Socials</h3><label for="LinkedIn" class="ep-field-label">LinkedIn</label><input type="text" class="ep-text-field w-input" maxlength="256" name="LinkedIn" data-name="LinkedIn" placeholder="" id="LinkedIn" required=""><label for="Twitter-3" class="ep-field-label">Twitter</label><input type="text" class="ep-text-field w-input" maxlength="256" name="Twitter" data-name="Twitter" placeholder="" id="Twitter-3" required=""><label for="Facebook" class="ep-field-label">Facebook</label><input type="text" class="ep-text-field w-input" maxlength="256" name="Facebook" data-name="Facebook" placeholder="" id="Facebook" required=""><label for="Instagram" class="ep-field-label">Instagram</label><input type="text" class="ep-text-field w-input" maxlength="256" name="Instagram" data-name="Instagram" placeholder="" id="Instagram" required="">
             </div>
+            <div id="w-node-bb72bb29-1910-07ba-2a1b-21c370acce79-c51123a0" class="edit-profile-grid-div"><label for="Email-2" class="ep-field-label">Update Profile Photo</label><img src="Images/upload.PNG" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 887px) 96vw, 852px" srcset="Images/upload-p-500.png 500w, Images/upload-p-800.png 800w, Images/upload.PNG 852w" alt=""></div>
+            <div id="w-node-_12f0b7ae-b276-dab7-0e03-deb32555434b-c51123a0" class="edit-profile-grid-div"><label for="Bio" class="ep-field-label">Edit Bio</label><textarea placeholder="" maxlength="5000" id="Bio" name="Bio" data-name="Bio" required="" class="ep-text-field ep-text-area w-input"></textarea></div>
+          </div>
+          <div class="ep-button-wrapper"><input type="submit" value="Submit" data-wait="Please wait..." class="ep-button w-button"></div>
+        </form>
+        <div class="w-form-done">
+          <div>Thank you! Your submission has been received!</div>
         </div>
-        <div  class="ei139_4653_21_5"></div>
-        <div  class="TempleText"></div>
-        <div align="right" class=ei139_4653_21_6>
-            <div  class=ei139_4653_21_7>
-                <span class="ei139_4653_21_8">John S.</span>
-                <div class="dropdown">
-                    <button
-                    class="ei139_4653_21_10 btn btn-danger dropdown-toggle"
-                    type="button"
-                    id="dropdownMenuButton"
-                    data-mdb-toggle="dropdown"
-                    aria-expanded="false"
-                    >
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="StudentProfile.aspx">Profile</a></li>
-                    <li><a class="dropdown-item" href="#">Setting</a></li>
-                    <li><a class="dropdown-item" href="#">Logout</a></li>
-                    </ul>
-                </div>
-                <div class=ei139_4653_21_11>
-                    <div class=ei139_4653_21_12>
-                        <div  class="ei139_4653_21_13"></div>
-                    </div>
-                </div>
-            </div>
+        <div class="w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
         </div>
-        <div class=ei139_4653_21_18>
-            <div class=ei139_4653_21_19>                       
-                <span  class="ei139_4653_21_21">4</span>                  
-            </div>               
-        </div>
+      </div>
     </div>
-    <section>
-        <div class="my-container">
-            <h1>Admin Edit Profile</h1>
-        </div>
-    </section>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=642d86d793cc94185f11239f" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
     <style>
-        .my-container {
-            max-width: 1200px;
-            margin-right: auto;
-            margin-left: auto;
-        }
-
-        .text-center {
-
+        .edit-profile {
+            margin-top: 40px;
         }
     </style>
-</body>
-</html>
+</asp:Content>

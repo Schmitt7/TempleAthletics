@@ -86,7 +86,10 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="CSS\cis4296-group-project.webflow.css" />
+    <Content Include="CSS\normalize.css" />
     <Content Include="CSS\styles.css" />
+    <Content Include="CSS\webflow.css" />
     <Content Include="CustomCss\custom.css" />
     <Content Include="ErrorQR.aspx" />
     <Content Include="Images\698648_1.png" />
@@ -99,7 +102,11 @@
     <Content Include="Images\Profile Icon.png" />
     <Content Include="Images\SearchBar.png" />
     <Content Include="Images\Temple Logo.png" />
+    <Content Include="Images\temple-brand-logo.png" />
     <Content Include="Images\temple_logo.png" />
+    <Content Include="Images\upload-p-500.png" />
+    <Content Include="Images\upload-p-800.png" />
+    <Content Include="Images\upload.PNG" />
     <Content Include="Images\Vector.png" />
     <Content Include="ImportStudents.aspx" />
     <Content Include="Login.aspx" />
