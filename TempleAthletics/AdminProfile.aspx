@@ -2,7 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
      <div class ="content">
 
 
@@ -19,7 +18,8 @@
             <p class="text-muted mb-1"></p>
             <p class="text-muted mb-4">Philadelphia, PA</p>
             <div class="d-flex justify-content-center mb-2">
-              <button type="button" class="btn btn-primary">Edit Profile</button>
+              <button type="button" class="btn btn-primary">Edit Profile</button> 
+              <a href="ImportStudents.aspx"><button type="button" class="btn btn-primary">Import Students</button></a>
             </div>
           </div>
         </div>
@@ -120,6 +120,5 @@
 
 <%--End of content div--%>   
 </div>
-
 
 </asp:Content>

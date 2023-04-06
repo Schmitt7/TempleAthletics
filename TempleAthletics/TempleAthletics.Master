@@ -34,16 +34,22 @@
                 <div  class="TempleText"></div>
                 <div align="right" class=ei139_4653_21_6>
                     <div  class=ei139_4653_21_7>
-                        <span class="ei139_4653_21_8">Emily N.</span>
-                        <div  class="ei139_4653_21_10">
-                            <div class="dropdown-menu1">
-                                <ul>
-                                    <li><a href="StudentProfile.aspx">Profile</a></li>
-                                    <li><a href="#">Setting</a></li>                            
-                                    <li><a href="#">Logout</a></li>
-                                </ul>
-                            </div>
-                        </div>                        
+                        <span class="ei139_4653_21_8">John S.</span>
+                        <div class="dropdown">
+                          <button
+                            class="ei139_4653_21_10 btn btn-danger dropdown-toggle"
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-mdb-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="StudentProfile.aspx">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Setting</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                          </ul>
+                        </div>
                         <div class=ei139_4653_21_11>
                             <div class=ei139_4653_21_12>
                                 <div  class="ei139_4653_21_13"></div>

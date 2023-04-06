@@ -90,11 +90,6 @@
     </tbody>
 </table>
 </div>
-<div class="btnn">
-    <a href="ImportStudents.aspx">
-        <button class="btn btn-danger" type="button">Import Student</button>
-    </a>
-</div>
 <style>
 .table{
     margin-top:2%;

@@ -135,7 +135,8 @@ html, body {
 }
 
 .ei139_4653_21_10 {
-	background-image: url('../Images/Dropdown icon.png');
+	/*background-image: url('../Images/Dropdown icon.png');*/
+	background-color: rgba(145.00000655651093, 39.00000147521496, 51.00000075995922, 1);
 	width: 40px;
 	height: 40px;
 	position: absolute;
@@ -503,4 +504,18 @@ html, body {
 .ei139_4653_21_10 ul {
 	list-style: none;
 	display: flex;
+}
+
+.dropdown:hover > .dropdown-menu {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 40px;
+	border-color: black;
+	margin: 0px;
+}
+
+.dropdown > .dropdown-toggle:active {
+	/*Without this, clicking will make it sticky*/
+	pointer-events: none;
 }
