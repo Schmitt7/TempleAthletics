@@ -24,7 +24,7 @@
     <table class="table">
     <thead>
         <tr>
-            <th>Spring 2022</th>
+            <th>Semester</th>
             <th>Event Name</th>
             <th>Description</th>
             <th></th>
@@ -33,7 +33,7 @@
     </thead>
     <tbody>
         <tr>
-            <td><input type="checkbox" /></td>
+            <td>Spring 2022</td>
             <td>Read to Kids</td>
             <td>Reading to Kids at the Local Library</td>
             <td>
@@ -44,7 +44,7 @@
             <td>3/18</td>
         </tr>
         <tr>
-            <td><input type="checkbox" /></td>
+            <td>Spring 2022</td>
             <td>Bike Day</td>
             <td>Charity Biking Event to Raise Awareness</td>
             <td>
@@ -55,7 +55,7 @@
             <td>10/24</td>
         </tr>
         <tr>
-            <td><input type="checkbox" /></td>
+            <td>Spring 2022</td>
             <td>Halloween Contest</td>
             <td>Halloween Costume Contest</td>
             <td>
