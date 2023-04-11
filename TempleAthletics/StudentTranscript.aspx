@@ -14,7 +14,7 @@
     <table class="table2">
         <thead class="table2">
             <tr>
-                <th>Spring 2022</th>
+                <th>Semester</th>
                 <th>Team:</th>
                 <th>Event Name:</th>
                 <th>Hours:</th>
@@ -23,21 +23,21 @@
         </thead>
         <tbody>
             <tr>
-                <td></td>
+                <td>Spring 2022</td>
                 <td>Temple Owl Basketball</td>
                 <td>Reading with Kids</td>
                 <td>5</td>
                 <td>March 20, 2022<br />11:30 AM</td>
             </tr>
             <tr>
-                <td></td>
+                <td>Spring 2022</td>
                 <td>Temple Owl Basketball</td>
                 <td>Shopping with Walmart</td>
                 <td>5</td>
                 <td>March 21, 2022<br />9:00 AM</td>
             </tr>
             <tr>
-                <td></td>
+                <td>Spring 2022</td>
                 <td>Temple Owl Basketball</td>
                 <td>Looking for Trash</td>
                 <td>3</td>
