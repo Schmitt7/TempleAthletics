@@ -47,7 +47,7 @@
     </table>
 </div>
 <div class="buttun">
-    <button class="btn btn-primary">Download</button>
+    <button class="btn btn-primary">Export</button>
 </div>
 
 <style>
