@@ -352,7 +352,7 @@ html, body {
 	height: 56px;
 	position: absolute;
 	left: 40%;
-	top: 855px;
+	top: 667px;
 	border-top-left-radius: 24px;
 	border-top-right-radius: 24px;
 	border-bottom-left-radius: 24px;
@@ -398,11 +398,11 @@ html, body {
 
 .e139_4901 {
 	background-color: rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
-	width: 1067px;
-	height: 592px;
+	width: 837px;
+	height: 504px;
 	position: absolute;
-	left: 15%;
-	top: 238px;
+	left: 20%;
+	top: 158px;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
 	border-bottom-left-radius: 25px;
@@ -425,10 +425,10 @@ html, body {
 
 .e139_4904 {
 	background-image: url('../Images/698648_1.png');
-	width: 513px;
-	height: 535px;
+	width: 488px;
+	height: 441px;
 	position: absolute;
-	top: 4%;
+	top: -11%;
 	left: 25%;
 	background-repeat: no-repeat;
 	margin: 0px;
@@ -440,7 +440,7 @@ html, body {
 	height: 39px;
 	position: absolute;
 	left: 34%;
-	top: 510px;
+	top: 407px;
 	margin: 0;
 	font-family: Inter;
 	text-align: left;
