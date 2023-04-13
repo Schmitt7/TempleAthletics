@@ -5,11 +5,12 @@
 <div class="qr-code-profile wf-section">
   <div class="qrpage-container container w-container">
     <div class="qr-block">
-      <h3 class="qr-heading">Scan Your QR Code</h3><img src="images/qrcode.png" loading="lazy" sizes="(max-width: 479px) 100vw, 250px" srcset="images/qrcode-p-500.png 500w, images/qrcode.png 545w" alt="" class="qrimage">
-      <div class="qr-error-block">
+      <h3 class="qr-heading">Scan Your QR Code</h3>
+      <img src="images/qrcode.png" loading="lazy" sizes="(max-width: 479px) 100vw, 250px" srcset="images/qrcode-p-500.png 500w, images/qrcode.png 545w" alt="" class="qrimage">
+      <div class="qr-error-block" style="display: none;">
         <div class="qr-error-text">Sorry, you&#x27;re not registered for this event</div>
       </div>
-      <a href="#" class="qr-button w-button">Scan QR Code</a>
+      <a href="#" class="qr-button w-button" style="margin-top: 70px; display: none;">Scan QR Code</a>
     </div>
   </div>
 </div>
