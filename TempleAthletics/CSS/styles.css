@@ -351,8 +351,9 @@ html, body {
 	width: 293px;
 	height: 56px;
 	position: absolute;
-	left: 40%;
-	top: 667px;
+	left: 50%;
+	top: 70%;
+	transform: translate(-50%, -30%);
 	border-top-left-radius: 24px;
 	border-top-right-radius: 24px;
 	border-bottom-left-radius: 24px;
@@ -401,8 +402,9 @@ html, body {
 	width: 837px;
 	height: 504px;
 	position: absolute;
-	left: 25%;
-	top: 158px;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%, -55%);
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
 	border-bottom-left-radius: 25px;
@@ -415,8 +417,9 @@ html, body {
 	width: 274px;
 	height: 39px;
 	position: absolute;
-	left: 43%;
-	top: 119px;
+	left: 51.5%;
+	top: 15%;
+	transform: translate(-48.5%, -85%);
 	font-family: Inter;
 	text-align: left;
 	font-size: 32px;
@@ -428,8 +431,9 @@ html, body {
 	width: 488px;
 	height: 441px;
 	position: absolute;
-	top: -11%;
-	left: 25%;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -55%);
 	background-repeat: no-repeat;
 	margin: 0px;
 }
@@ -439,8 +443,9 @@ html, body {
 	width: 348px;
 	height: 39px;
 	position: absolute;
-	left: 34%;
-	top: 407px;
+	left: 52%;
+	top: 87%;
+	transform: translate(-48%, -13%);
 	margin: 0;
 	font-family: Inter;
 	text-align: left;

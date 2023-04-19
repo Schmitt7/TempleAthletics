@@ -6,8 +6,8 @@
     <button class="e139_4679 btn btn-danger">Import</button>
 <span class="e139_4902">Import Students</span>
         <div class="e139_4901">
-            <div class="e139_4904"></div>
             <span class="e139_4905">Drag and drop file here</span>
+            <div class="e139_4904"></div>
         </div>
         
         
