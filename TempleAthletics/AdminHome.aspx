@@ -29,6 +29,7 @@
             <th>Description</th>
             <th></th>
             <th>Athletic Student Registered</th>
+            <th>Total Participants</th>
         </tr>
     </thead>
     <tbody>
@@ -41,6 +42,7 @@
                     <button class="btn btn-primary" type="button">Open</button>
                 </a>
             </td>
+            <td>2</td>
             <td>3/18</td>
         </tr>
         <tr>
@@ -52,6 +54,7 @@
                     <button class="btn btn-primary" type="button">Open</button>
                 </a>
             </td>
+            <td>3</td>
             <td>10/24</td>
         </tr>
         <tr>
@@ -63,6 +66,7 @@
                     <button class="btn btn-primary" type="button">Open</button>
                 </a>
             </td>
+            <td>1</td>
             <td>3/30</td>
         </tr>
         <tr>
@@ -74,6 +78,7 @@
                     <button class="btn btn-primary" type="button">Open</button>
                 </a>
             </td>
+            <td>9</td>
             <td>22/60</td>
         </tr>
         <tr>
@@ -85,6 +90,7 @@
                     <button class="btn btn-primary" type="button">Open</button>
                 </a>
             </td>
+            <td>0</td>
             <td>47/130</td>
         </tr>
     </tbody>

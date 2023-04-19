@@ -20,7 +20,6 @@
             <div class="d-flex justify-content-center mb-2">
               <button type="button" class="btn btn-primary" onclick="editFields()">Edit Profile</button>
               <button id="saveButton" style="display:none" type="button" class="btn btn-primary ms-1" onclick="saveFields()">Save Profile</button>
-              <button type="button" class="btn btn-outline-primary ms-1">Scan QR Code</button>
             </div>
           </div>
         </div>
@@ -154,7 +153,7 @@
         var twitterusername = document.getElementById("twitterUsername");
         var instagramusername = document.getElementById("instagramUsername");
         var facebookusername = document.getElementById("facebookUsername");
-        
+
 
         // make the elements editable
         name.contentEditable = "true";

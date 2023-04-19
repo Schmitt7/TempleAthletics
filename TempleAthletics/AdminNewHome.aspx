@@ -30,6 +30,7 @@
             <th>Description</th>
             <th></th>
             <th>Athletic Student Registered</th>
+            <th>Total Participants</th>
         </tr>
     </thead>
     <tbody>

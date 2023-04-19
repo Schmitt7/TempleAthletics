@@ -69,6 +69,8 @@
     <Content Include="AdminEvent.aspx" />
     <Content Include="AdminHome.aspx" />
     <Content Include="AdminNewHome.aspx" />
+    <Content Include="Images\QRscan.png" />
+    <Content Include="QRscan.aspx" />
     <Content Include="StudentNewHome.aspx" />
     <Content Include="AdminProfile.aspx" />
     <Content Include="CommunityPage.aspx" />
@@ -165,6 +167,13 @@
     </Compile>
     <Compile Include="AdminNewHome.aspx.designer.cs">
       <DependentUpon>AdminNewHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QRscan.aspx.cs">
+      <DependentUpon>QRscan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QRscan.aspx.designer.cs">
+      <DependentUpon>QRscan.aspx</DependentUpon>
     </Compile>
     <Compile Include="StudentNewHome.aspx.cs">
       <DependentUpon>StudentNewHome.aspx</DependentUpon>

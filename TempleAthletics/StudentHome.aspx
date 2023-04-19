@@ -17,6 +17,16 @@
         160
     </h3>
 </div>
+
+<div class="d-flex justify-content-left">
+    <a href="QRscan.aspx">
+    <button type="button" class="btn btn-primary ms-1">Scan QR Code</button>
+    </a>
+    <a href="StudentEvent.aspx">
+    <button type="button" class="btn btn-warning ms-1">Events</button>
+    </a>
+</div>
+
 <div class="t1">
     Registered Events
 </div>
@@ -28,7 +38,8 @@
             <th>Event Name</th>
             <th>Description</th>
             <th></th>
-            <th>Participants</th>
+            <th>Athletic Students Registered</th>
+            <th>Total Participants</th>
         </tr>
     </thead>
     <tbody>
@@ -41,6 +52,7 @@
                     <button class="btn btn-primary" type="button">Open</button>
                 </a>
             </td>
+            <td>2</td>
             <td>3/18</td>
         </tr>
         <tr>
@@ -52,6 +64,7 @@
                     <button class="btn btn-primary" type="button">Open</button>
                 </a>
             </td>
+            <td>5</td>
             <td>10/24</td>
         </tr>
         <tr>
@@ -63,6 +76,7 @@
                     <button class="btn btn-primary" type="button">Open</button>
                 </a>
             </td>
+            <td>6</td>
             <td>26/50</td>
         </tr>
     </tbody>

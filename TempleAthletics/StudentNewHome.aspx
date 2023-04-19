@@ -18,8 +18,19 @@
         160
     </h3>
 </div>
+
+<div class="d-flex justify-content-left">
+    <a href="QRscan.aspx">
+    <button type="button" class="btn btn-primary ms-1">Scan QR Code</button>
+    </a>
+    <a href="StudentEvent.aspx">
+    <button type="button" class="btn btn-warning ms-1">Events</button>
+    </a>
+</div>
+
+
 <div class="t1">
-    Upcoming Events
+    Registered Events
 </div>
 <div>
     <table class="table">
@@ -30,6 +41,7 @@
             <th>Description</th>
             <th></th>
             <th>Athletic Student Registered</th>
+            <th>Total Participants</th>
         </tr>
     </thead>
     <tbody>
@@ -48,6 +60,7 @@
     font-size:35px;
     text-align:center;
     font-weight:bold;
+    padding-bottom:10px;
 }
 .title{
     padding-top:5%;
