@@ -524,3 +524,26 @@ html, body {
 	/*Without this, clicking will make it sticky*/
 	pointer-events: none;
 }
+
+.Success {
+	width: 488px;
+	/*height: 441px;*/
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%, -55%);
+}
+.SuccessText {
+	color: black;
+	width: 348px;
+	height: 39px;
+	position: absolute;
+	left: 52%;
+	top: 70%;
+	transform: translate(-48%, -30%);
+	margin: 0;
+	font-family: Inter;
+	text-align: left;
+	font-size: 32px;
+	letter-spacing: 0;
+}
