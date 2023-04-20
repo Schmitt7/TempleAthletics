@@ -29,20 +29,16 @@
           <div class="card-body p-0">
             <ul class="list-group list-group-flush rounded-3">
               <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                <i class="fab fa-github fa-lg" style="color: #333333;"></i>
-                <p id="githubUsername" class="mb-0">Johns Github</p>
-              </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                 <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
-                <p id="twitterUsername" class="mb-0">@JohnsTwitter</p>
+                <p id="twitterUsername" class="mb-0">Add your Twitter +</p>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                 <i class="fab fa-instagram fa-lg" style="color: #ac2bac;"></i>
-                <p id="instagramUsername" class="mb-0">Johns Instagram</p>
+                <p id="instagramUsername" class="mb-0">Add your Instagram +</p>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                 <i class="fab fa-facebook-f fa-lg" style="color: #3b5998;"></i>
-                <p id="facebookUsername" class="mb-0">Johns Facebook</p>
+                <p id="facebookUsername" class="mb-0">Add your Facebook +</p>
               </li>
             </ul>
           </div>
