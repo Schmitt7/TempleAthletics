@@ -69,6 +69,7 @@
     <Content Include="AdminEvent.aspx" />
     <Content Include="AdminHome.aspx" />
     <Content Include="AdminNewHome.aspx" />
+    <Content Include="Images\login.jpg" />
     <Content Include="Images\success.png" />
     <Content Include="Images\QRscan.png" />
     <Content Include="QRscan.aspx" />
