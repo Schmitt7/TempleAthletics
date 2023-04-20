@@ -11,6 +11,11 @@
         <div class="pain">
             <img src="Images/QRscan.png" width="500" height="900"/>
         </div>
+        <div class="pain">
+            <div class="col-md-6 button"><a href="ScanSuccess.aspx"><button class="btn btn-danger d-block w-100" type="button">Scan Success</button></a></div>
+            <div class="col-md-6 button"><a href="ErrorQR.aspx"><button class="btn btn-danger d-block w-100" type="button">Scan Failed</button></a></div>
+
+        </div>
     </form>
 </body>
 
