@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section class="mt-xl-5 pt-xl-5 mx-5">
-        <h2 class="text-center mb-4">Events</h2>
+        <h2 class="text-center mb-4">Upcoming Events</h2>
         <section class="mx-auto d-flex justify-content-evenly align-items-center mb-5">
             <div class="w-25">
                 <label for="search"></label>
