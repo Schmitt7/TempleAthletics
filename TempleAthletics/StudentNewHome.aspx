@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div class="rect">
+<div class="rect">
     <h1 class="title">
         Dashboard
     </h1>
@@ -13,6 +13,16 @@
         Temple Owl Football
     </h3>
     <h3 class="title3">
+        Total Department Hours:
+        <br>
+        1,600
+    </h3>
+    <h3 class="title4">
+        Total Student Hours:
+        <br>
+        6
+    </h3>
+    <h3 class="title5">
         Total Team Hours:
         <br>
         160
@@ -70,14 +80,28 @@
 .title2 {
     left:20%;
     position:absolute;
-    top:150px;
+    top:130px;
     color:white;
     text-align:center;
 }
 .title3 {
     left:65%;
     position:absolute;
-    top:150px;
+    top:130px;
+    color:white;
+    text-align:center;
+}
+.title4 {
+    left:20%;
+    position:absolute;
+    top:220px;
+    color:white;
+    text-align:center;
+}
+.title5 {
+    left:67%;
+    position:absolute;
+    top:220px;
     color:white;
     text-align:center;
 }
