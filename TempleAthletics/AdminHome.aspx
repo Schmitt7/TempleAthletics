@@ -17,6 +17,13 @@
         160
     </h3>
 </div>
+
+<div class="d-flex justify-content-left">
+    <a href="ImportStudents.aspx">
+    <button type="button" class="btn btn-primary ms-1">Import Students</button>
+    </a>
+</div>
+
 <div class="t1">
     Upcoming Events
 </div>

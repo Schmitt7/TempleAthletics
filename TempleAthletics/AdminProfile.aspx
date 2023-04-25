@@ -19,7 +19,6 @@
             <p class="text-muted mb-4">Philadelphia, PA</p>
             <div class="d-flex justify-content-center mb-2">
               <button type="button" class="btn btn-primary">Edit Profile</button> 
-              <a href="ImportStudents.aspx"><button type="button" class="btn btn-primary">Import Students</button></a>
             </div>
           </div>
         </div>
